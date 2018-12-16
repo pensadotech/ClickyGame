@@ -1,2 +1,2 @@
-# ClickyGame
-Clicky Game
+# clickygame
+Memory game
