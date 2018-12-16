@@ -5,7 +5,8 @@ const Header = (props) => (
   <header className="header text-center">
     <div className="row">
       <div className="col-md-2">
-         <h1>Logo</h1>      
+         
+         <img className="logoImg imgRnd10 imageShadow imageRotate" alt="click Game" src="./images/clickGame.png" />       
       </div>
       <div className="col-md-4">
         <h4 className="gameMsg">{props.gameMsg}</h4>
