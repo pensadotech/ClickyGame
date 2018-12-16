@@ -1,0 +1,15 @@
+.header {
+  min-height: 100px;
+  padding: 25px 0px 0px 20px;
+  background-color:  rgb(20, 20, 104);
+  color: white;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.gameMsg{
+  color: orange;
+  padding: 10px;
+}
