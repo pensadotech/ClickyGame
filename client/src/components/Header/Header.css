@@ -27,9 +27,9 @@
 
 .imageShadow {
   /* Add drop shadow */
-  -webkit-box-shadow: 2px 2px 3px 2px rgb(154, 180, 3);
-  -moz-box-shadow: 2px 2px 3px 2px rgb(154, 180, 3);
-  box-shadow: 2px 2px 3px 2px rgb(154, 180, 3);
+  -webkit-box-shadow: 2px 2px 3px 2px rgb(245, 230, 19);
+  -moz-box-shadow: 2px 2px 3px 2px rgb(245, 230, 19);
+  box-shadow: 2px 2px 3px 2px rgb(245, 230, 19);
 }
 
 .imageRotate {

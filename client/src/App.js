@@ -30,7 +30,8 @@ class App extends Component {
   // button select a card event
   slectCard = cardId => {
     console.log('CardID',cardId)
-    // verify entry to continue teh game
+    // verify entry to continue the game
+    let origArray = this.state.cardImages
     let itmsArr = this.state.selectedCards
     if(itmsArr.indexOf(cardId) !== -1) {
        // Duplicate entry, game over
@@ -49,7 +50,14 @@ class App extends Component {
         tmptopScore = tmpScore
         this.setState( { topScore : tmptopScore })
       }
-      this.setState( { score : tmpScore, selectedCards : itmsArr, gameMsg : "Good selection!" })    
+      
+      if(origArray.length === itmsArr.length) {
+        this.setState( { score : tmpScore, selectedCards : itmsArr, gameMsg : "YOUR WIN!" })  
+      }
+      else  {
+        this.setState( { score : tmpScore, selectedCards : itmsArr, gameMsg : "Good selection!" })  
+      }
+        
     }
     
     console.log(this.state.selectedCards)
