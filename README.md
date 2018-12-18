@@ -53,7 +53,7 @@ npm start
 
 ## Who maintains and contributes to the project
 
-This is a personal project based own learing experience. 
+This is a personal project fro my own learing experience. 
 
 ## Where users can get help with the project
 
