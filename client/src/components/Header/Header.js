@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Header.css";
 
+// Important: In React, to refere CSS classes in HTML structure, it uses the kewyword 'className'
+//            which is non standard for JS or Angular
 const Header = (props) => (
   <header className="header text-center">
     <div className="row">
