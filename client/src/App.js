@@ -4,8 +4,7 @@ import Header from './components/Header'
 import Jumbotron from './components/Jumbotron'
 import Footer from './components/Footer'
 import GameRow from './components/GameRow'
-import Card from './components/Card'
-import CardImages from "./components/CardImages/CardImages.json"
+import CardImages from "./api/CardImages/CardImages.json"
 import "./App.css";
 
 class App extends Component {
